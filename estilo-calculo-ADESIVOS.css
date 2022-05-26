@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(70, 68, 68);
+}
+section{
+    background: white;
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    font: normal 12pt arial;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+}
+#botao_adesivo_ADS{
+    background: black;
+    width: 349px;
+    height: 40px;
+    font: bold 20pt arial;
+    text-align: left 50%;
+    color: white;
+    padding-top: 2%;
+    border-color: gray;
+    text-decoration: none;
+}
+
+#botao_banner_ADS{
+    background: rgb(175, 171, 171);
+    display: inline-block;
+    float: right;
+    margin-top: -54px;
+    width: 350px;
+    height: 40px;
+    font: bold 20pt arial;
+    text-align: left 50%;
+    color: black;
+    padding-top: 2%;
+    
+}
+#botao_banner_ADS:hover{
+    background: black;
+    color: white;
+}
+#design_ADS{
+    width: 700px;
+    background: black;
+    height: 5px;
+}
+#lar_ADS{
+    width: 90px;
+    height: 20px;
+}
+#alt_ADS{
+    width: 90px;
+    height: 20px;
+}
+#Quant_ADS{
+    width: 40px;
+    height: 20px;
+}
+#botaoCalcular_ADS{
+    width: 130px;
+    height: 40px;
+    font: bold 13pt arial;
+}
+#botao_Uni_ADS{
+    width: 130px;
+    height: 40px;
+    font: bold 13pt arial;
+}
+#botao_Uni_ADS:hover{
+    background: black;
+    font: bold 13pt arial;
+    color: white
+}
+#botaoImpressao_ADS{
+    width: 130px;
+    height: 40px;
+    font: bold 13pt arial;
+}
+#botaoImpressao_ADS:hover{
+    background: black;
+    font: bold 13pt arial;
+    color: white
+}
+#botaoTotal_ADS{
+    width: 130px;
+    height: 40px;
+    font: bold 13pt arial;
+}
+#botaoApagar_ADS{
+    width: 130px;
+    height: 40px;
+    font: bold 13pt arial;
+    margin-left: 497px;
+}
+#res_ADS{
+    background: rgb(255, 255, 255);
+    width: 650px;
+    height: 210px;
+    display: inline-block;
+    text-align: center;
+    overflow-y: scroll;
+    border-width: thin;
+    border-style: ridge;
+    border-color: black;
+    border-right-style: none;
+}
+#comprimentar{
+    margin-top: -40px;
+}

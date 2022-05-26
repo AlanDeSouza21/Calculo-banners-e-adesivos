@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculo Lonas e Adesivos </title>
+    <link rel="stylesheet" href="estilo-calculo - ADESIVOS.css">
+</head>
+<body>
+    <section id="sesao">
+        <div id="botao_adesivo_ADS"> ADESIVO </div>
+        <a href = "estrutura.html" target="_self"> <div id="botao_banner_ADS">
+            LONA
+        </div> </a>
+        <div id="design_ADS">
+
+        </div>
+        <div>
+            <p>
+                <label for="quantidade"> Quantidade </label> &nbsp;
+                <input type="number" name="quantidade" id="Quant_ADS" min="1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="largura"> Largura </label> &nbsp;
+                <input type="number" name="largura" id="lar_ADS" min="1" placeholder="cm"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="alt" id="nomealtura_ADS"> Altura </label> &nbsp;
+                <input type="number" name="alt" id="alt_ADS" min="1"placeholder="cm">                
+            </p>
+            <p>
+                <input type="button" value= "Comum" id="botaoImpressao_ADS" onclick="Cancela_Uni()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="button" value= "Unidirecional" id="botao_Uni_ADS" onclick="Acao_Uni()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="button" value= "Calcular" id="botaoCalcular_ADS" onclick="clicarCalculo_ADS()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="button" value= "Total" id="botaoTotal_ADS" onclick="clicarTotal_ADS()"><br><br>
+                <input type="button" value= "Apagar" id="botaoApagar_ADS" onclick="clicarApagar_ADS()">
+            </p>
+        </div>
+        <div id="comprimentar">
+            <p><strong> RESULTADO </strong></p>
+
+        </div>
+        <div id="res_ADS">
+
+        </div>
+    </section>
+    <script src="cod - ADESIVOS.js"></script>
+</body>
+</html>

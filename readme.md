@@ -1,0 +1,1 @@
+Esse projeto foi desenvolvido para calcular o valor de materiais para divulgação feitos em lonas ou adesivos, o projeto em questão retorna o valor do material para o cliente final usando como base para essa informação o calculo do metro quadrado que é feito a partir das medidas que o cliente passa e também a quantidade pedida pelo cliente. 

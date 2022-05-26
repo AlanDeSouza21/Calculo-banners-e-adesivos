@@ -1,0 +1,116 @@
+  
+body{
+    background-color: rgb(70, 68, 68);
+}
+section{
+    background: white;
+    width: 700px;
+    height: 500px;
+    font: normal 12pt arial;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+}
+a:link {text-decoration: none;}
+#botao_adesivo{
+    background: rgb(175, 171, 171);
+    width: 349px;
+    text-align: center;
+    height: 40px;
+    font: bold 20pt arial;
+    text-align: left 50%;
+    color: black;
+    padding-top: 2%;
+    border-color: gray;
+}
+#botao_adesivo:hover{
+    background: black;
+    color: white;
+}
+#botao_banner{
+    text-decoration: none;
+    background: black;
+    display: inline-block;
+    text-align: center;
+    float: right;
+    margin-top: -54px;
+    width: 349px;
+    height: 40px;
+    font: bold 20pt arial;
+    text-align: left 50%;
+    color: white;
+    padding-top: 2%;
+    
+}
+#design{
+    width: 700px;
+    background: black;
+    height: 5px;
+}
+#lar{
+    width: 90px;
+    height: 20px;
+}
+#alt{
+    width: 90px;
+    height: 20px;
+}
+#Quant{
+    width: 40px;
+    height: 20px;
+}
+#botaoCalcular{
+    width: 130px;
+    height: 40px;
+    font: bold 13pt arial;
+}
+#Pri_div{
+    text-align: center;
+}
+#res{
+    text-align: center;
+    width: 700px;
+}
+#botaoResultado{
+    margin-top: 15px;
+    margin-right: 544px;
+    width: 130px;
+    height: 40px;
+    font: bold 13pt arial;
+}
+#botaoTotal{
+    margin-top: -80px;
+    margin-right: 29px;
+    width: 130px;
+    height: 40px;
+    font: bold 13pt arial;
+    float: right;
+    display: inline-block;
+}
+#botaoApagar{
+    margin-top: -18px;
+    margin-right: 29px;
+    width: 130px;
+    height: 40px;
+    font: bold 13pt arial;
+    float: right;
+    display: inline-block;
+}
+#escritaRES{
+    margin-left: 20px;
+    width: 500px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    overflow-y: scroll;
+    border-width: thin;
+    border-style: ridge;
+    border-color: black;
+    border-right-style: none;
+}
+#escrita{
+    margin-left: -180px;
+    width: 100px;
+    display: inline-block;
+}

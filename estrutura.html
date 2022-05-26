@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculo Lonas e Adesivos </title>
+    <link rel="stylesheet" href="estilo-calculo.css">
+</head>
+<body>
+    <section>
+        <a href = "estrutura - ADESIVOS.html" target="_self"> <div id="botao_adesivo">
+            ADESIVO
+        </div> </a>
+        <div id="botao_banner">
+            LONA
+        </div>
+        <div id="design">
+
+        </div>
+        <div id="Pri_div">
+            <p>
+                <label for="quantidade"> Quantidade </label> &nbsp;
+                <input type="number" name="quantidade" id="Quant" min="1" placeholder="unit"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="largura"> Largura </label> &nbsp;
+                <input type="number" name="largura" id="lar" min="1" placeholder="cm"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="alt" id="nomealtura"> Altura </label> &nbsp;
+                <input type="number" name="alt" id="alt" min="1"placeholder="cm">                
+            </p>
+            <p>
+                <input type="radio" name="Rad" id="CircBanner">
+                <label for="circulo" id="NomeCircBanner"> Banner </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="Rad" id="CircFaixa">
+                <label for="circulo" id="NomeCircFaixa"> Faixa com ilhois </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="Rad" id="CircLona">
+                <label for="circulo" id="NomeCircLona"> Lona sem acabamento </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="button" value= "Calcular" id="botaoCalcular" onclick="calcular()">
+                <p id="escrita"><strong> RESULTADO </strong><br></p><br>
+                <input type="button" value= "Total" id="botaoTotal" onclick="calcularTotal()">
+                <input type="button" value= "Apagar" id="botaoApagar" onclick="apagar()">
+            </p>
+        </div>
+        <div id="escritaRES">
+
+        </div>
+        </section>
+    <script src="cod.js"></script>
+</body>
+</html>
