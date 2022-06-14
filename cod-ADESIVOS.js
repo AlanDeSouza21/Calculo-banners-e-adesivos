@@ -218,21 +218,21 @@ function clicarCalculo_ADS(){
         id_res_ADS.appendChild(criaLET_ADS).appendChild(criaBrake_ADS)
     }
     else if(M_valido >= 0.85 && M_valido <= 1.9999){
-        val_Final = (65 + VALOR_UNI) * M_valido
+        val_Final = (70 + VALOR_UNI) * M_valido
         let arredonda = Math.ceil(val_Final)
         juntaTotal.push(arredonda)
         criaLET_ADS.innerHTML = `${id_Quant_ADS.value} Uni. - Adesivo(s) ${Number(id_lar_ADS.value)}x${Number(id_alt_ADS.value)}cm ${arredonda.toLocaleString('pt-br',{style:'currency',currency:'BRL'})}`
         id_res_ADS.appendChild(criaLET_ADS).appendChild(criaBrake_ADS)
     }
     else if(M_valido >= 2 && M_valido <= 2.9999){
-        val_Final = (60 + VALOR_UNI) * M_valido
+        val_Final = (65 + VALOR_UNI) * M_valido
         let arredonda = Math.ceil(val_Final)
         juntaTotal.push(arredonda)
         criaLET_ADS.innerHTML = `${id_Quant_ADS.value} Uni. - Adesivo(s) ${Number(id_lar_ADS.value)}x${Number(id_alt_ADS.value)}cm ${arredonda.toLocaleString('pt-br',{style:'currency',currency:'BRL'})}`
         id_res_ADS.appendChild(criaLET_ADS).appendChild(criaBrake_ADS)
     }
     else if(M_valido >= 3){
-        val_Final = (55 + VALOR_UNI) * M_valido
+        val_Final = (60 + VALOR_UNI) * M_valido
         let arredonda = Math.ceil(val_Final)
         juntaTotal.push(arredonda)
         criaLET_ADS.innerHTML = `${id_Quant_ADS.value} Uni. - Adesivo(s) ${Number(id_lar_ADS.value)}x${Number(id_alt_ADS.value)}cm ${arredonda.toLocaleString('pt-br',{style:'currency',currency:'BRL'})}`

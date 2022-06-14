@@ -64,32 +64,32 @@ function calcular(){
             window.alert(`ERRO: tamanho de metro quadrado ${Number(resultado)} especificado é menor que o permitido`)
         }
         else if(Number(resultado) >= 0.10 && Number(resultado) <= 0.47){
-            valor = 45 * Number(id_Quant.value)
-            TOTAL.push(valor)
-            criouVAR.innerHTML = `${Number(id_Quant.value)} Uni. ${material} ${Number(id_Lar.value)}x${Number(id_Alt.value)}cm R$ ${valor},00`
-            document.getElementById('escritaRES').appendChild(criouVAR).appendChild(criouBR)
-        }
-        else if(Number(resultado) >= 0.48 && Number(resultado) <= 0.62){
             valor = 65 * Number(id_Quant.value)
             TOTAL.push(valor)
             criouVAR.innerHTML = `${Number(id_Quant.value)} Uni. ${material} ${Number(id_Lar.value)}x${Number(id_Alt.value)}cm R$ ${valor},00`
             document.getElementById('escritaRES').appendChild(criouVAR).appendChild(criouBR)
         }
-        else if(Number(resultado) >= 0.63 && Number(resultado) <= 0.87){
+        else if(Number(resultado) >= 0.48 && Number(resultado) <= 0.62){
             valor = 70 * Number(id_Quant.value)
             TOTAL.push(valor)
             criouVAR.innerHTML = `${Number(id_Quant.value)} Uni. ${material} ${Number(id_Lar.value)}x${Number(id_Alt.value)}cm R$ ${valor},00`
             document.getElementById('escritaRES').appendChild(criouVAR).appendChild(criouBR)
         }
-        else if(Number(resultado) >= 0.88 && Number(resultado) <= 0.99){
+        else if(Number(resultado) >= 0.63 && Number(resultado) <= 0.87){
             valor = 75 * Number(id_Quant.value)
+            TOTAL.push(valor)
+            criouVAR.innerHTML = `${Number(id_Quant.value)} Uni. ${material} ${Number(id_Lar.value)}x${Number(id_Alt.value)}cm R$ ${valor},00`
+            document.getElementById('escritaRES').appendChild(criouVAR).appendChild(criouBR)
+        }
+        else if(Number(resultado) >= 0.88 && Number(resultado) <= 0.99){
+            valor = 85 * Number(id_Quant.value)
             TOTAL.push(valor)
             criouVAR.innerHTML = `${Number(id_Quant.value)} Uni. ${material} ${Number(id_Lar.value)}x${Number(id_Alt.value)}cm R$ ${valor},00`
             document.getElementById('escritaRES').appendChild(criouVAR).appendChild(criouBR)
         }
         // CALCULO DE VALORES ACIMA DE 1 METRO QUADRADO
         else if(Number(resultado) >= 1 && Number(resultado) <= 1.99){
-            valor = 75 * Number(resultado) 
+            valor = 85 * Number(resultado) 
             // ARREDONDAMENTO DO VALOR 
             let valor_Arredon = Math.ceil(valor) * Number(id_Quant.value)
             TOTAL.push(valor_Arredon)
@@ -97,7 +97,7 @@ function calcular(){
             document.getElementById('escritaRES').appendChild(criouVAR).appendChild(criouBR)
         }
         else if(Number(resultado) >= 2 && Number(resultado) <= 2.99){
-            valor = 70 * Number(resultado) 
+            valor = 80 * Number(resultado) 
             // ARREDONDAMENTO DO VALOR 
             let valor_Arredon = Math.ceil(valor) * Number(id_Quant.value)
             TOTAL.push(valor_Arredon)
@@ -105,7 +105,7 @@ function calcular(){
             document.getElementById('escritaRES').appendChild(criouVAR).appendChild(criouBR)
         }
         else if(Number(resultado) >= 3){
-            valor = 65 * Number(resultado) 
+            valor = 75 * Number(resultado) 
             // ARREDONDAMENTO DO VALOR 
             let valor_Arredon = Math.ceil(valor) * Number(id_Quant.value)
             TOTAL.push(valor_Arredon)

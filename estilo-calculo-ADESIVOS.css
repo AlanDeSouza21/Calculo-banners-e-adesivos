@@ -103,7 +103,7 @@ section{
     overflow-y: scroll;
     border-width: thin;
     border-style: ridge;
-    border-color: black;
+    border-color: rgb(126, 124, 124);
     border-right-style: none;
 }
 #comprimentar{
